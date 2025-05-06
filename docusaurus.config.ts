@@ -9,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://phoenix-games-revolution.github.io',
-  baseUrl: 'last-strategy-docs',
+  baseUrl: 'docs',
 
   organizationName: 'phoenix-games-revolution',
   projectName: 'last-strategy-docs',
