@@ -1,3 +1,1 @@
-# last-strategy
-
-Game Main Repo
+# docs
