@@ -1,6 +1,6 @@
 name: Юнит Раннего Железного века
 description: Задача на подготовку описания юнита эпохи Раннего Железного века
-title: '[Ранний железный век] Название юнита'
+title: '[Early Iron Age Unit] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,18 +10,18 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Железный мечник
-        - Тяжёлый копейщик
-        - Ранний арбалетчик
-        - Лучник
-        - Пращник
-        - Всадник
-        - Боевой слон
-        - Боевая колесница
-        - Осадный инженер
-        - Верховный жрец
-        - Инженер
-        - Разведчик
-        - Торговец
+        - Iron Swordsman
+        - Heavy Spearman
+        - Early Crossbowman
+        - Archer
+        - Slinger
+        - Cavalry
+        - War Elephant
+        - War Chariot
+        - Siege Engineer
+        - High Priest
+        - Engineer
+        - Scout
+        - Trader
     validations:
       required: true

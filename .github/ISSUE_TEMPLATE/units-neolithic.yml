@@ -1,6 +1,6 @@
 name: Юнит Неолита
 description: Задача на подготовку описания юнита эпохи Неолита
-title: '[Неолит] Название юнита'
+title: '[Neolithic Unit] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,14 +10,14 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Воин
-        - Земледелец
-        - Скотовод
-        - Жрец
-        - Строитель
-        - Лучник
-        - Пращник
-        - Разведчик
-        - Ремесленник
+        - Warrior
+        - Farmer
+        - Herder
+        - Priest
+        - Builder
+        - Archer
+        - Slinger
+        - Scout
+        - Craftsman
     validations:
       required: true

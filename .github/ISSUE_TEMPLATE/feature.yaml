@@ -1,28 +1,29 @@
-name: Изменение репозитория
-description: Задача на структурные изменения, шаблоны и организацию репозитория
-title: '[Структура] '
+name: Feature
+description: Task for structural repository changes, templates, and publishing flow
+title: '[Feature] '
+type: Feature
 projects: ['Phoenix-Games-Revolution/1']
 body:
   - type: textarea
     id: context
     attributes:
-      label: С чем связан запрос
-      description: Опиши, зачем нужен этот набор изменений и какую проблему он закрывает
+      label: What is this request related to?
+      description: Describe why this change is needed and what problem it addresses
     validations:
       required: true
 
   - type: textarea
     id: plan
     attributes:
-      label: План изменений
-      description: Перечисли, что именно должно быть изменено в репозитории
+      label: Change plan
+      description: List the repository changes that should be implemented
     validations:
       required: true
 
   - type: textarea
     id: done
     attributes:
-      label: Критерии готовности
-      description: Зафиксируй, по каким признакам задача считается завершённой
+      label: Done criteria
+      description: Describe what must be true for this task to be considered complete
     validations:
       required: true

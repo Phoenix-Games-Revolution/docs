@@ -1,6 +1,6 @@
 name: Юнит Мезолита
 description: Задача на подготовку описания юнита эпохи Мезолита
-title: '[Мезолит] Название юнита'
+title: '[Mesolithic Unit] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,13 +10,13 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Охотник
-        - Старший собиратель
-        - Рыбак
-        - Хранитель огня
-        - Шаман
-        - Разведчик
-        - Пращник
-        - Погонщик вьючных животных
+        - Hunter
+        - Advanced Gatherer
+        - Fisher
+        - Firekeeper
+        - Shaman
+        - Scout
+        - Slinger
+        - Pack Animal Handler
     validations:
       required: true

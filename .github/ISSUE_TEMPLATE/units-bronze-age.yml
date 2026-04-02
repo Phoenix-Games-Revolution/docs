@@ -1,6 +1,6 @@
 name: Юнит Бронзового века
 description: Задача на подготовку описания юнита эпохи Бронзового века
-title: '[Бронзовый век] Название юнита'
+title: '[Bronze Age Unit] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,17 +10,17 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Бронзовый мечник
-        - Лучник
-        - Пращник
-        - Колесничий лучник
-        - Колесница
-        - Всадник
-        - Копейщик
-        - Строитель
-        - Торговец
-        - Жрец
-        - Разведчик
-        - Осадный инженер
+        - Bronze Swordsman
+        - Archer
+        - Slinger
+        - Chariot Archer
+        - Chariot
+        - Cavalry
+        - Spearman
+        - Builder
+        - Merchant
+        - Priest
+        - Scout
+        - Siege Engineer
     validations:
       required: true

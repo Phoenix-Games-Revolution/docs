@@ -1,6 +1,6 @@
 name: Навыки юнита Неолита
 description: Задача на описание навыков юнита эпохи Неолита
-title: '[Неолит] Навыки юнита'
+title: '[Neolithic Unit Skills] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,15 +10,15 @@ body:
       label: Название юнита
       description: Выбери юнита для описания его навыков
       options:
-        - Воин
-        - Земледелец
-        - Скотовод
-        - Жрец
-        - Строитель
-        - Лучник
-        - Пращник
-        - Разведчик
-        - Ремесленник
+        - Warrior
+        - Farmer
+        - Herder
+        - Priest
+        - Builder
+        - Archer
+        - Slinger
+        - Scout
+        - Craftsman
     validations:
       required: true
   - type: dropdown
@@ -27,8 +27,8 @@ body:
       label: Тип древа навыков
       description: Укажи структуру древа навыков
       options:
-        - Только пассивные навыки
-        - Только активные навыки
-        - Смешанные навыки
+        - Только пассивные навыки (passive)
+        - Только активные навыки (active)
+        - Смешанные навыки (mixed)
     validations:
       required: true

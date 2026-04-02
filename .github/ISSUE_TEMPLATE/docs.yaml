@@ -1,31 +1,32 @@
-name: Документация
-description: Задача на создание или изменение документного раздела
-title: '[Документация] '
+name: Docs
+description: Task for creating or changing a documentation section
+title: '[Docs] '
+type: Docs
 projects: ['Phoenix-Games-Revolution/5']
 body:
   - type: textarea
     id: where
     attributes:
-      label: Где меняем
-      description: Укажи раздел, каталог или документ, в котором будут изменения
-      placeholder: Например, game-design/canon или docs/gdd/canon
+      label: Where do we change?
+      description: Specify the section, directory, or document that will be updated
+      placeholder: For example, game-design/canon or docs/gdd/canon
     validations:
       required: true
 
   - type: textarea
     id: what
     attributes:
-      label: Что описываем
-      description: Коротко опиши смысл документа или блока изменений
-      placeholder: Например, каноническую модель игры или жизненный цикл боевого юнита
+      label: What do we describe?
+      description: Briefly describe the meaning of the document or the change set
+      placeholder: For example, canonical game model or combat unit lifecycle
     validations:
       required: true
 
   - type: textarea
     id: structure
     attributes:
-      label: Как должна выглядеть структура
-      description: Опиши ожидаемые разделы, страницы или порядок подачи
-      placeholder: Например, отдельный раздел Канон с пятью страницами и обновлением sidebars.ts
+      label: What should the structure look like?
+      description: Describe the expected sections, pages, or order of presentation
+      placeholder: For example, a dedicated Canon section with five pages and a sidebars.ts update
     validations:
       required: true
