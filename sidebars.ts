@@ -4,7 +4,7 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     {
       type: 'category',
-      label: 'Game Design Document',
+      label: 'Документ дизайна игры',
       items: [
         {
           type: 'category',
@@ -15,17 +15,28 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Обзор',
           items: ['gdd/overview/concept'],
-        }
+        },
+        {
+          type: 'category',
+          label: 'Канон',
+          items: [
+            'gdd/canon/game-model',
+            'gdd/canon/world-progression',
+            'gdd/canon/deep-mechanics',
+            'gdd/canon/combat-unit-lifecycle',
+            'gdd/canon/dark-age-vertical-slice',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Technical Design Document',
+      label: 'Технический документ',
       items: ['tdd/index'],
     },
     {
       type: 'category',
-      label: 'World Bible',
+      label: 'Библия мира',
       items: ['world-bible/index'],
     },
   ],
