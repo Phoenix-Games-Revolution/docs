@@ -41,7 +41,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/open-graph.jpg',
     navbar: {
       title: 'Last Strategy',
       logo: {
