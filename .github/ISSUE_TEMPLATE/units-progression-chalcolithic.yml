@@ -1,6 +1,6 @@
 name: Прогрессия юнита Энеолита
 description: Задача на описание прогрессии юнита эпохи Энеолита
-title: '[Chalcolithic Unit Progression] Название юнита'
+title: '[Энеолит] Прогрессия юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,15 +10,15 @@ body:
       label: Название юнита
       description: Выбери юнита для описания его прогрессии
       options:
-        - Spearman
-        - Archer
-        - Slinger
-        - Miner
-        - Smith
-        - Priest
-        - Scout
-        - Wagoner
-        - Hunter
+        - Копейщик
+        - Лучник
+        - Пращник
+        - Шахтёр
+        - Кузнец
+        - Жрец
+        - Разведчик
+        - Возница
+        - Охотник
     validations:
       required: true
   - type: dropdown
@@ -28,7 +28,7 @@ body:
       description: Формат древа развития юнита
       options:
         - Линейное (без ветвлений)
-        - С ветвлениями (branching)
-        - С выбором специализации (specialization)
+        - С ветвлениями
+        - С выбором специализации
     validations:
       required: true

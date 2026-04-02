@@ -1,6 +1,6 @@
 name: Навыки юнита Палеолита
 description: Задача на описание навыков юнита эпохи Палеолита
-title: '[Paleolithic Unit Skills] Название юнита'
+title: '[Палеолит] Навыки юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,13 +10,13 @@ body:
       label: Название юнита
       description: Выбери юнита для описания его навыков
       options:
-        - Hunter
-        - Gatherer
-        - Fisher
-        - Firekeeper
-        - Shaman
-        - Scout
-        - Slinger
+        - Охотник
+        - Собиратель
+        - Рыбак
+        - Хранитель огня
+        - Шаман
+        - Разведчик
+        - Пращник
     validations:
       required: true
   - type: dropdown
@@ -25,8 +25,8 @@ body:
       label: Тип древа навыков
       description: Укажи структуру древа навыков
       options:
-        - Только пассивные навыки (passive)
-        - Только активные навыки (active)
-        - Смешанные навыки (mixed)
+        - Только пассивные навыки
+        - Только активные навыки
+        - Смешанные навыки
     validations:
       required: true

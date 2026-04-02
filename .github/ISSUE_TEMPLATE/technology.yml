@@ -1,6 +1,6 @@
 name: Технология эпохи
 description: Задача на описание технологии конкретного этапа эпохи
-title: "[Technology] Название технологии"
+title: "[Технология] Название технологии"
 type: Technology
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,12 +10,12 @@ body:
       label: Этап эпохи
       description: Выбери этап, к которому относится технология
       options:
-        - Paleolithic
-        - Mesolithic
-        - Neolithic
-        - Chalcolithic
-        - Bronze Age
-        - Early Iron Age
+        - Палеолит
+        - Мезолит
+        - Неолит
+        - Энеолит
+        - Бронзовый век
+        - Ранний железный век
     validations:
       required: true
 
@@ -25,12 +25,12 @@ body:
       label: Категория технологии
       description: Укажи, к какой категории относится технология
       options:
-        - Военная (military)
-        - Экономическая (economic)
-        - Социальная (social)
-        - Производственная (production)
-        - Научная (scientific)
-        - Ритуальная (ritual)
+        - Военная
+        - Экономическая
+        - Социальная
+        - Производственная
+        - Научная
+        - Ритуальная
     validations:
       required: true
 

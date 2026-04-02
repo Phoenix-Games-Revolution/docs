@@ -1,6 +1,6 @@
 name: Юнит Палеолита
 description: Задача на подготовку описания юнита эпохи Палеолита
-title: '[Paleolithic Unit] Название юнита'
+title: '[Палеолит] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,12 +10,12 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Hunter
-        - Gatherer
-        - Fisher
-        - Firekeeper
-        - Shaman
-        - Scout
-        - Slinger
+        - Охотник
+        - Собиратель
+        - Рыбак
+        - Хранитель огня
+        - Шаман
+        - Разведчик
+        - Пращник
     validations:
       required: true

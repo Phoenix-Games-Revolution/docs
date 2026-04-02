@@ -1,6 +1,6 @@
 name: Навыки юнита Раннего Железного века
 description: Задача на описание навыков юнита эпохи Раннего Железного века
-title: '[Early Iron Age Unit Skills] Название юнита'
+title: '[Ранний железный век] Навыки юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,19 +10,19 @@ body:
       label: Название юнита
       description: Выбери юнита для описания его навыков
       options:
-        - Iron Swordsman
-        - Heavy Spearman
-        - Early Crossbowman
-        - Archer
-        - Slinger
-        - Cavalry
-        - War Elephant
-        - War Chariot
-        - Siege Engineer
-        - High Priest
-        - Engineer
-        - Scout
-        - Trader
+        - Железный мечник
+        - Тяжёлый копейщик
+        - Ранний арбалетчик
+        - Лучник
+        - Пращник
+        - Всадник
+        - Боевой слон
+        - Боевая колесница
+        - Осадный инженер
+        - Верховный жрец
+        - Инженер
+        - Разведчик
+        - Торговец
     validations:
       required: true
 
@@ -32,8 +32,8 @@ body:
       label: Тип древа навыков
       description: Укажи структуру древа навыков
       options:
-        - Только пассивные навыки (passive)
-        - Только активные навыки (active)
-        - Смешанные навыки (mixed)
+        - Только пассивные навыки
+        - Только активные навыки
+        - Смешанные навыки
     validations:
       required: true

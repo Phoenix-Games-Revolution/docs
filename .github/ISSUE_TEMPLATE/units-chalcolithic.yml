@@ -1,6 +1,6 @@
 name: Юнит Энеолита
 description: Задача на подготовку описания юнита эпохи Энеолита
-title: '[Chalcolithic Unit] Название юнита'
+title: '[Энеолит] Название юнита'
 type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
@@ -10,14 +10,14 @@ body:
       label: Название юнита
       description: Выбери юнита
       options:
-        - Spearman
-        - Archer
-        - Slinger
-        - Miner
-        - Smith
-        - Priest
-        - Scout
-        - Wagoner
-        - Hunter
+        - Копейщик
+        - Лучник
+        - Пращник
+        - Шахтёр
+        - Кузнец
+        - Жрец
+        - Разведчик
+        - Возница
+        - Охотник
     validations:
       required: true
