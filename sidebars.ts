@@ -14,18 +14,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Обзор',
-          items: ['gdd/overview/concept'],
-        },
-        {
-          type: 'category',
-          label: 'Канон',
-          items: [
-            'gdd/canon/game-model',
-            'gdd/canon/world-progression',
-            'gdd/canon/deep-mechanics',
-            'gdd/canon/combat-unit-lifecycle',
-            'gdd/canon/dark-age-vertical-slice',
-          ],
+          items: ['gdd/overview/concept', 'gdd/overview/gameplay-concept'],
         },
       ],
     },
