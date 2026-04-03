@@ -8,11 +8,11 @@ const config: Config = {
   tagline: 'by Phoenix Games Revolution',
   favicon: 'img/favicon.ico',
 
-  url: 'https://phoenix-games-revolution.github.io',
-  baseUrl: 'docs',
+  url: 'https://ls.pgr.studio',
+  baseUrl: '/',
 
   organizationName: 'phoenix-games-revolution',
-  projectName: 'last-strategy-docs',
+  projectName: 'docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,7 +30,7 @@ const config: Config = {
           path: 'docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/phoenix-games-revolution/last-strategy-docs/edit/master/',
+          editUrl: 'https://github.com/Phoenix-Games-Revolution/docs/edit/master/',
         },
         blog: false,
         theme: {
@@ -56,7 +56,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/phoenix-games-revolution/last-strategy-docs',
+          href: 'https://github.com/Phoenix-Games-Revolution/docs',
           label: 'GitHub',
           position: 'right',
         },
